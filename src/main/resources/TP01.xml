@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listePays>
+    <pays>
+        <nom>Allemagne</nom>
+        <dateDeReleve format="dd/MM/yyyy">31/03/2019</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">82.9</population>
+            <fecondite unite="enfant/femme">1.57</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">47623</PIB>
+            <monnaie>Euro</monnaie>
+        </donneesEconomiques>
+    </pays>
+    <pays>
+        <nom>Belgique</nom>
+        <dateDeReleve format="dd/MM/yyyy">30/06/2019</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">11.4</population>
+            <fecondite unite="enfant/femme">1.65</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">47541</PIB>
+            <monnaie>Euro</monnaie>
+        </donneesEconomiques>
+    </pays>
+    <pays>
+        <nom>Espagne</nom>
+        <dateDeReleve format="dd/MM/yyyy">30/06/2019</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">46.7</population>
+            <fecondite unite="enfant/femme">1.31</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">33350</PIB>
+            <monnaie>euro</monnaie>
+        </donneesEconomiques>
+    </pays>
+    <pays>
+        <nom>France</nom>
+        <dateDeReleve format="dd/MM/yyyy">31/03/2019</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">67</population>
+            <fecondite unite="enfant/femme">1.9</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">44317</PIB>
+            <monnaie>Euro</monnaie>
+        </donneesEconomiques>
+    </pays>
+    <pays>
+        <nom>Italie</nom>
+        <dateDeReleve format="dd/MM/yyyy">22/12/2018</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">60.4</population>
+            <fecondite unite="enfant/femme">1.32</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">35614</PIB>
+            <monnaie>Euro</monnaie>
+        </donneesEconomiques>
+    </pays>
+    <pays>
+        <nom>Royaume-Uni</nom>
+        <dateDeReleve format="dd/MM/yyyy">31/01/2019</dateDeReleve>
+        <donneesDemographiques>
+            <population unite="millions">66.5</population>
+            <fecondite unite="enfant/femme">1.74</fecondite>
+        </donneesDemographiques>
+        <donneesEconomiques>
+            <PIB unite="$ par hab.">43688</PIB>
+            <monnaie>Livre-Sterling</monnaie>
+        </donneesEconomiques>
+    </pays>
+</listePays>

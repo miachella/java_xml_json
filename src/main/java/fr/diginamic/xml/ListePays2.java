@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name="listePays")
-public class ListePays {
+public class ListePays2 {
 	
 	@XmlElement
 	protected List<Pays> pays;

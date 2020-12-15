@@ -1,6 +1,7 @@
 package fr.diginamic.xml;
 
 import java.io.File;
+import java.time.LocalDate;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -27,6 +28,10 @@ public class UnmarshallerTest {
 		String monnaie = racine.getPays().get(0).getDonneesEconomiques().getMonnaie();
 		
 		System.out.println("Parmi les habitants de " + nomPays + " la monnaie est " + monnaie);
+		
+		LocalDate dateReleve = racine.getPays().get(0).getDateDeReleve().getValue();
+		
+		System.out.println("Le derniere relevé du pays " + nomPays + " date de " + dateReleve);
 		
 	}
 

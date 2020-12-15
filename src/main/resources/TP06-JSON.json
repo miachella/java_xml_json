@@ -1,0 +1,80 @@
+[{
+	"nom":"Google",
+	"siegeSocial":{
+		"localisation":"Googleplex",
+		"ville":"Mountain View",
+		"etat":"California",
+		"pays":"United States"
+	},
+	"fondateurs":[{
+		"nom": "Page", 
+		"prenom": "Larry", 
+		"dateNaissance":"26/03/1973",
+		"villeNaissance":"East Lansing",
+		"etatNaissance":"Michigan"
+	}, {
+		"nom": "Brin", 
+		"prenom": "Sergey", 
+		"dateNaissance":"21/08/1973",
+		"villeNaissance":"Moscou",
+		"etatNaissance":"Union Soviétique"
+	}],
+	"chiffreAffaires":{
+		"unite":"milliards de $",
+		"chiffres":[
+			{
+				"annee":2008,
+				"montant":16.49
+			},
+			{
+				"annee":2012,
+				"montant":37.97
+			},
+			{
+				"annee":2016,
+				"montant":89.46
+			},
+			{
+				"annee":2018,
+				"montant":136.2
+			}
+		]
+	}
+},
+{
+	"nom":"Amazon",
+	"siegeSocial":{
+		"localisation":"",
+		"ville":"Seattle",
+		"etat":"Washington",
+		"pays":"United States"
+	},
+	"fondateurs":[{
+		"nom": "Bezos", 
+		"prenom": "Jeff", 
+		"dateNaissance":"12/01/1964",
+		"villeNaissance":"Albuquerque",
+		"etatNaissance":"Nouveau-Mexique"
+	}],
+	"chiffreAffaires":{
+		"unite":"milliards de $",
+		"chiffres":[
+			{
+				"annee":2010,
+				"montant":34.2
+			},
+			{
+				"annee":2012,
+				"montant":61.1
+			},
+			{
+				"annee":2016,
+				"montant":136
+			},
+			{
+				"annee":2018,
+				"montant":235
+			}
+		]
+	}
+}]

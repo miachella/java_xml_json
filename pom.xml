@@ -37,6 +37,24 @@
 					<encoding>${file.encoding}</encoding>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.jsonschema2pojo</groupId>
+				<artifactId>jsonschema2pojo-maven-plugin</artifactId>
+				<version>1.0.2</version>
+				<configuration>
+					<sourceDirectory>${basedir}/src/main/resources/schemajson</sourceDirectory>
+					<targetPackage>fr.diginamic.jsonschema.beans</targetPackage>
+					<outputDirectory>C:/Temp/output</outputDirectory>
+					<sourceType>json</sourceType>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
